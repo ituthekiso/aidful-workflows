@@ -86,9 +86,9 @@ function Dashboard() {
           </Link>
         </div>
         <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-          <span>⚡ Instant drafts</span>
-          <span>🎯 Zero setup</span>
-          <span>🧠 Smart summaries</span>
+          <span className="text-accent">Instant drafts</span>
+          <span className="text-accent">Zero setup</span>
+          <span className="text-accent">Smart summaries</span>
         </div>
       </section>
 
