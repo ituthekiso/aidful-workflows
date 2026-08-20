@@ -13,8 +13,8 @@ export function PageHeader({
 }) {
   return (
     <header className="mb-8">
-      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">{eyebrow}</p>
-      <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{title}</h1>
+      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-accent">{eyebrow}</p>
+      <h1 className="gradient-text mt-2 text-3xl font-bold tracking-tight sm:text-5xl">{title}</h1>
       <p className="mt-2 max-w-2xl text-sm text-muted-foreground">{description}</p>
     </header>
   );
