@@ -29,10 +29,10 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
           to={to}
           onClick={onNavigate}
           activeOptions={{ exact: to === "/" }}
-          className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-sidebar-foreground/75 transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
+          className="flex items-center gap-3 rounded-full px-3 py-2.5 text-sm font-semibold text-sidebar-foreground/70 transition-all hover:translate-x-1 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
           activeProps={{
             className:
-              "bg-sidebar-primary text-sidebar-primary-foreground hover:bg-sidebar-primary hover:text-sidebar-primary-foreground",
+              "brand-gradient text-primary-foreground hover:text-primary-foreground shadow-lg",
           }}
         >
           <Icon className="h-4 w-4 shrink-0" />
