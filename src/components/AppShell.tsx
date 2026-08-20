@@ -46,11 +46,11 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
 function Brand() {
   return (
     <div className="flex items-center gap-3 px-2 py-1">
-      <span className="brand-gradient flex h-9 w-9 items-center justify-center rounded-xl">
+      <span className="brand-gradient flex h-9 w-9 items-center justify-center rounded-2xl shadow-lg">
         <Sparkles className="h-5 w-5 text-primary-foreground" />
       </span>
       <span className="flex flex-col leading-tight">
-        <span className="text-sm font-semibold text-sidebar-foreground">WorkFlow AI</span>
+        <span className="text-base font-bold tracking-tight text-sidebar-foreground">WorkFlow AI</span>
         <span className="text-xs text-sidebar-foreground/60">Productivity assistant</span>
       </span>
     </div>
